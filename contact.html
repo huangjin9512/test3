@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-<title>Home</title>
+<title>Kinder Garten</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,10 +74,10 @@
 											<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
 											<div class="nav-collapse nav-collapse_ collapse">
 												<ul class="nav sf-menu clearfix">
-													<li class="active"><a href="index.html">Home<span class="over1"></span></a></li>
+													<li><a href="index.html">Home<span class="over1"></span></a></li>
 													<li><a href="about.html">About Us<span class="over1"></span></a></li>
 													<li><a href="services.html">Services<span class="over1"></span></a></li>
-													<li><a href="contact.html">Contact Us<span class="over1"></span></a></li>
+													<li class="active"><a href="contact.html">Contact Us<span class="over1"></span></a></li>
 												</ul>
 											</div>
 										</div>
@@ -118,138 +118,102 @@
 				</div>
 			</div>
 		</div>
-		<!-- START BANNERS -->
-		<div id="banners">
+		<div class="pages_wrapper">
 			<div class="container">
 				<div class="row">
-					<div class="span4">
-						<!-- START NEWS -->
-						<div class="news">
-							<div class="news_title">News</div>
-							<div class="date1 clearfix">
-								<div class="txt1 c4">12
-									<br><span>jan</span></div>
-								<div class="txt2">
-									<h5><a href="#">Curabitur conva</a></h5>
-									<p>Maecenas ac est hendrerit magi aliquam erat.</p>
-								</div>
+					<div class="span8">
+					   <!-- START CONTACT US -->
+						<div class="pages">
+								<div class="pages_title">Contact Us</div>
+								<h5>One of our representatives will happily contact you within 24 hours. For urgent needs call us at.</h5>
+								<div class="divider1"></div>
+								<ul class="thumbnails thumbnails3">
+								<li>
+									<div class="thumbnail clearfix">
+										<div class="caption"> 
+											<span class="fasize"><i class="fa fa-phone"></i></span>
+											<p>(+1) 800 123 45 00</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="thumbnail clearfix">
+										<div class="caption"> <span class="fasize"><i class="fa fa-envelope"></i></span>
+											<p>enroll@kindergarten.com</p>
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="thumbnail clearfix">
+										<div class="caption"> <span class="fasize"><i class="fa fa-map-marker"></i></span>
+											<p>Independence Ave SE, Washington / USA</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="thumbnail clearfix">
+										<div class="caption"><span class="fasize"><i class="fa fa-clock-o"></i></span>
+											<p>Monday – Friday<br />8.00 am – 5.00 pm</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="divider1"></div>
+							<!-- START COMMENT -->
+							<h3>Leave A Comment</h3>
+							<div id="note"></div>
+							<div id="fields">
+								<form id="ajax-contact-form" class="form-horizontal">
+									<div class="block1 clearfix">
+										<div class="block3">
+											<div class="control-group">
+												<label class="control-label" for="inputName">Full Name</label>
+												<div class="controls">
+													<input type="text" id="inputName" name="name" value="Full Name" onBlur="if(this.value=='') this.value='Full Name'" onFocus="if(this.value =='Full Name' ) this.value=''"> </div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="inputEmail">E-mail</label>
+												<div class="controls">
+													<input type="text" id="inputEmail" name="email" value="E-mail" onBlur="if(this.value=='') this.value='E-mail'" onFocus="if(this.value =='E-mail' ) this.value=''"> </div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="inputPhone">Phone</label>
+												<div class="controls">
+													<input type="text" id="inputPhone" name="phone" value="Phone" onBlur="if(this.value=='') this.value='Phone'" onFocus="if(this.value =='Phone' ) this.value=''"> </div>
+											</div>
+										</div>
+										<div class="block4">
+											<div class="control-group">
+												<label class="control-label" for="inputMessage">Message</label>
+												<div class="controls">
+													<textarea id="inputMessage" name="content" onBlur="if(this.value=='') this.value='Message'" onFocus="if(this.value =='Message' ) this.value=''">Message</textarea>
+												</div>
+											</div>
+										</div>
+									</div>
+									<button type="submit" class="submit">Submit Comment</button>
+								</form>
 							</div>
-							<div class="date1 clearfix">
-								<div class="txt1 c2">16
-									<br><span>feb</span></div>
-								<div class="txt2">
-									<h5><a href="#">Convallis inter</a></h5>
-									<p>Maecenas ac est hendrerit magi aliquam erat.</p>
-								</div>
-							</div>
-							<div class="date1 clearfix">
-								<div class="txt1 c3">18
-									<br><span>mar</span></div>
-								<div class="txt2">
-									<h5><a href="#">Interdum hednd</a></h5>
-									<p>Maecenas ac est hendrerit magi aliquam erat.</p>
-								</div>
-							</div>
+							<!-- END COMMENT -->
 						</div>
-						<!-- END NEWS -->
+						<!-- END CONTACT US -->
 					</div>
 					<div class="span4">
-						<!-- START ANNOUNCEMENTS -->
-						<div class="announcements">
-							<div class="announcements_title">Announcements</div>
-							<div class="thumb1">
-								<div class="thumbnail clearfix">
-									<figure><img src="images/teacher/d.jpg" alt="Aliquam erat volutpat" class="news_img"></figure>
-									<div class="caption">
-										<h5><a href="#">Aliquam erat</a></h5>
-										<p> Veniam, quis nostrud exercitation ullamco labor. </p>
-									</div>
+						<div class="row">
+							<div class="col-md-12">
+								<!-- START LOCATION -->
+								<div class="location">
+									<div class="location_title">Our Location</div>
+									<div id="map"></div>
 								</div>
-							</div>
-							<div class="thumb1">
-								<div class="thumbnail clearfix">
-									<figure><img src="images/teacher/c.jpg" alt="Aliquam erat volutpat" class="news_img"></figure>
-									<div class="caption">
-										<h5><a href="#">Aliquam volua</a></h5>
-										<p> Veniam, quis nostrud exercitation ullamco labor. </p>
-									</div>
-								</div>
-							</div>
-							<div class="thumb1">
-								<div class="thumbnail clearfix">
-									<figure><img src="images/teacher/a.jpg" alt="Aliquam erat volutpat" class="news_img"></figure>
-									<div class="caption">
-										<h5><a href="#">Veniam nisi</a></h5>
-										<p> Veniam, quis nostrud exercitation ullamco labor. </p>
-									</div>
-								</div>
+								<!-- END LOCATION -->
 							</div>
 						</div>
-						<!-- END ANNOUNCEMENTS -->
 					</div>
-					<div class="span4">
-						<!-- START SCHOOL CLASSES -->
-						<div class="school-classes">
-							<div class="school-classes_title">School Classes</div>
-							<div class="date2 clearfix">
-								<div class="txt1 c4">1</div>
-								<div class="txt2">
-									<p>Maecenas ac est hendreritim magi aliquam erat.</p>
-								</div>
-							</div>
-							<div class="date2 clearfix">
-								<div class="txt1 c2">2
-									<br> </div>
-								<div class="txt2">
-									<p>Maecenas ac est hendreritim magi aliquam erat.</p>
-								</div>
-							</div>
-							<div class="date2 clearfix">
-								<div class="txt1 c3">3</div>
-								<div class="txt2">
-									<p>Maecenas ac est hendreritim magi aliquam erat.</p>
-								</div>
-							</div>
-							<div class="date2 clearfix">
-								<div class="txt1 c3">4</div>
-								<div class="txt2">
-									<p>Maecenas ac est hendreritim magi aliquam erat.</p>
-								</div>
-							</div>
-							<div class="date2 clearfix">
-								<div class="txt1 c3">5</div>
-								<div class="txt2">
-									<p>Maecenas ac est hendreritim magi aliquam erat.</p>
-								</div>
-							</div>
-						</div>
-						<!-- END SCHOOL CLASSES -->
-					</div>
-				</div>
+				 </div>
 			</div>
 		</div>
-		<!-- END BANNERS -->
-		<!-- START WELCOME -->
-		<div class="welcome_wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="span12">
-						<div class="welcome">
-							<div class="row">
-								<div class="span6"> <img src="images/bicycle.png" class="img-responsive" alt=""> </div>
-								<div class="span6">
-									<div class="welcome_title">Welcome</div>
-									<h5>Starting with the new school year in our kindergarten</h5>
-									<p>Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean semper aliquet libero. Ipsum dolor sit amet conse ctetur adipisicing elit aliqua duruderya.</p>
-									<p>Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim aest. Aenean semper aliquet libero.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- END WELCOME -->
 		<!-- START FOOTER -->
 		<footer>
 			<div class="social_wrapper">
@@ -274,6 +238,8 @@
 <script type="text/javascript" src="js/jquery.caroufredsel.js"></script>
 <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyCe2q1gFSd75jKUnTDPq0nZWaMlEu6vL30"></script>
+<script src="js/map.js"></script>
 <script>
 	// CAROUFSEDSEL SLIDER 
 	$(document).ready(function () {
